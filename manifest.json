@@ -1,0 +1,14 @@
+{
+    "name": "Proxy-middleware",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "Mohamed-Amine",
+    "action": {
+        "default_title": "Proxy Middleware",
+        "default_popup": "views/popup.html"
+    },
+    "permissions": [
+        "proxy",
+        "storage"
+    ]
+}

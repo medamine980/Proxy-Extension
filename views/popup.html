@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Proxy</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+    <div class="loading-screen" data-loading-screen>
+        <h1>Loading...</h1>
+    </div>
+    <main class="container hidden" data-main-container>
+        <form class="settings-form" action="">
+            <img class="settings-form__connected-flag settings-form__connected-flag--hidden" width="48" height="48"
+                src="images/countries/unknown.png" alt="" data-connected-flag>
+            <button class="settings-form__connect-btn" data-connect-btn>Connect</button>
+            <label class="settings-form__country-label" for="country">Select the desired country</label>
+            <div class="settings-form__input-autocomplete-container" data-autocomplete-container>
+                <div class="settings-form__input-autocomplete-container__innercontainer">
+                    <img width="24" src="" alt="" data-selected-flag>
+                    <input type="search" class="settings-form__input-autocomplete-container__input"
+                        data-autocomplete-input placeholder="Enter a city">
+                </div>
+                <div class="settings-form__input-autocomplete-container__options" data-autocomplete-options>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+    <script src="../js/popup.js" type="module"></script>
+    <script src="../js/inputAutoComplete.js" defer></script>
+
+</body>
+
+</html>
