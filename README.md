@@ -6,4 +6,4 @@ A chrome extension that allows you to browse the internet using a different ip a
 
 ![][demo]
 
-[demo]: https://github.com/medamine980/proxy-extension/demo.gif
+[demo]: https://github.com/medamine980/Proxy-Extension/blob/main/demo.gif
